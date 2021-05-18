@@ -6,7 +6,8 @@ pipeline {
     dockerImage = ""
   }
 
-  agent any
+  //agent any
+  agent {label 'linux'}
     stages {
   
     stage('Checkout Source') {
