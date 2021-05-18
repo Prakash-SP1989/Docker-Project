@@ -7,7 +7,7 @@ pipeline {
   }
 
   //agent any
-  agent {label 'linux'}
+  //agent {label 'linux'}
     stages {
   
     stage('Checkout Source') {
